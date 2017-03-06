@@ -1,0 +1,70 @@
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+}
+
+.section-title {
+    font-family: 'Amatic SC', cursive;
+    color: #75b2b2;
+    font-weight: bold;
+    padding-bottom: 0.5em;
+    text-align: left;
+}
+
+/* Heading */
+header {
+    padding: 3em 0 3em;
+    font-family: 'Amatic SC', cursive;
+}
+
+.logo {
+    max-height: 10em; 
+    padding-right: 1.5em;
+}
+
+/* About Me */
+.about {
+    padding: 20px;
+}
+
+.about-description {
+    text-align: justify;
+}
+
+/* Featured Work */
+
+.work {
+    padding: 20px;
+    text-align: center;
+}
+
+.work-title, .work-title:hover {
+    color: #d3d72d;
+}
+
+.work-image {
+    padding: 10px;
+} 
+
+/* Footer */
+footer {
+    background-color: #75b2b2;
+}
+
+[class*="entypo-"] {
+    color: #d3d72d; 
+}
+
+[class*="entypo-"]:hover {
+    color: #d3d72d;
+    text-decoration: none;
+}
+
+.social {
+    color: #d3d72d;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px 0 5px;
+    text-shadow: 2px 2px 4px #000000;
+}

@@ -1,0 +1,45 @@
+/* add your CSS here */
+#animal-card {
+    background-image: url(background1.png);
+    border: 2px solid rgb(102, 50, 5);
+    width: 340px; 
+    -webkit-box-shadow: 9px 9px 18px -5px rgba(102,49,5,0.98);
+    -moz-box-shadow: 9px 9px 18px -5px rgba(102,49,5,0.98);
+    box-shadow: 9px 9px 18px -5px rgba(102,49,5,0.98); 
+    background-color: transparent; 
+}
+
+.title {
+    padding-left: 20px;
+    font-family: "Helvetica", "Arial", sans-serif;
+}
+
+.animal-img {
+    width: 300px;
+    padding-left: 20px;
+    padding-right: 20px; 
+    padding-top: 10px;
+}
+
+.animal-info {
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 16px; 
+    padding: 10px;
+    border: 2px solid rgb(102, 50, 5);
+    margin: 20px; 
+    text-align: left;
+}
+
+.fun-fact {
+    font-style: italic;
+}
+
+.animal-items {
+    list-style-type: none;
+    padding: 0; 
+    margin: 0; 
+}
+
+.label {
+    font-weight: bold;
+}

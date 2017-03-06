@@ -1,0 +1,31 @@
+@media screen and (max-width: 550px) {
+/* Header */
+    .title {
+        font-size: 20px;
+      }
+    .description  {
+        font-size: 18px;
+      } 
+    header {
+        padding-top: 0;
+      }
+
+    .logo {
+        max-height: 10em; 
+        padding-right: 0;
+      }
+/* Footer */
+    .social {
+        font-size: 20px;
+      }
+}
+
+@media screen and (min-width: 551px) and (max-width: 750px) {
+/* Header */
+    .title {
+        font-size: 30px;
+      }
+    .description  {
+        font-size: 22px;
+      } 
+}
